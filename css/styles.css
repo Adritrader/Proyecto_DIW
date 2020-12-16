@@ -184,6 +184,77 @@ iframe .blog {
 
 }
 
+.tienda-frontal {
+
+  margin-top: 40px;
+
+
+}
+
+.tienda-frontal #salon2 {
+
+  height: 310px;
+
+
+}
+
+.fila-servicios p {
+
+  margin-top: 60px;
+  width: 75%;
+
+
+}
+
+.fotos-tienda {
+
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+.fotos-tienda img {
+
+ margin-bottom: 20px;
+ height: 145px;
+  
+
+}
+
+.fila-texto-tienda {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 80px;
+
+}
+
+.titulo-miniaturas-tienda {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.productos-miniaturas {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.productos-miniaturas img{
+
+
+  align-items: center;
+
+}
+
 
 /* Selectores por id*/
 

@@ -10,10 +10,17 @@ footer {
   
 footer span {
   
-    font-size: 20px;
+    font-size: 18px;
     color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
   
   
+}
+
+p {
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
 }
 
 
@@ -31,9 +38,10 @@ footer span {
 .col-footer-enlaces a {
 
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     line-height: 2.5;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
   
   }
   
@@ -56,8 +64,9 @@ footer span {
   
     text-decoration: none;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
   
   }
   
@@ -104,7 +113,7 @@ footer span {
 
   .fila-footer-politicas {
 
-    margin-top: 25px;
+    
     border-top: 2px solid gray;
   
   
@@ -137,5 +146,11 @@ footer span {
   .mapa iframe {
   
     margin-top: 40px;
+  
+  }
+  .mapa p {
+
+    font-size: 12px;
+    color: white;
   
   }

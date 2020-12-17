@@ -49,8 +49,10 @@ for (i = 0; i < dropdown.length; i++) {
 }
 }
 
+
 function docReady() {
 
   cargarMenu();
+  currentSlide(1);
   
 }

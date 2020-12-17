@@ -1,15 +1,31 @@
 header {
 
-    background-image: linear-gradient(to right top, #e7e1e5, #dcc6d4, #d2acc2, #c791af, #bd769b, #b76690, #b15584, #ab4379, #a83874, #a62c6f, #a31c6b, #a00066);
+    background-color: rgb(109, 0, 63);
     padding: 0;
+}
+
+p {
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+a {
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 .barra-nav {
 
     display: flex;
     justify-content: space-around;
-    background-color: black
+    background-color: black;
+    
+    
 }
+
 
 .barra-nav-elementos {
 
@@ -21,10 +37,11 @@ header {
 
 .barra-nav-elementos a {
 
+    
     text-decoration: none;
     font-size: 22px;
     font-weight: 400;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
 
 }
@@ -57,6 +74,7 @@ header {
   .col-carrito span {
   
     font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   
   }
 
@@ -65,8 +83,10 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    font-size: 20px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
+    padding: 8px !important;
     
   
   }
@@ -78,6 +98,7 @@ header {
     text-decoration: none;
     color: #000;
     font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
   }
   
@@ -128,8 +149,8 @@ header {
 
 .fila-banner p {
   
-  line-height: 1.5;
-  font-size: 16px;
+  line-height: 1.2;
+  font-size: 12px;
   color: white;
  
   
@@ -148,14 +169,15 @@ header {
   
   .fila-carrito i {
   
-    font-size: 25px;
+    font-size: 18px;
     color: white;
   
   }
   
   .fila-carrito span {
   
-    margin-left: 20px;
+    margin-left: 15px;
+    font-size: 16px;
   
   }
 
@@ -176,17 +198,17 @@ header {
 
 .fila-ruta {
 
-    background-color: grey;
+    background-color: rgb(199, 197, 197);
   
   }
 
   .horario {
 
-    background-color:  lightsteelblue;
+    background-color:  rgb(0, 0, 0);
     align-self: center;
     justify-content: center;
     flex-direction: row;
-    border: 1px solid lightblue;
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 3px;
     
   }
@@ -211,7 +233,7 @@ header {
 
 .myButton {
 	background-color:#766f7d;
-	border-radius:6px;
+	border-radius: 6px;
 	border:2px solid #4e6096;
 	display:inline-block;
 	cursor:pointer;
@@ -238,9 +260,11 @@ header {
   position: absolute;
   bottom:4em;
   left:4em;
-  background-color:#07d400;
-  border-radius:1.5em;
+  background-color: rgb(109, 0, 63);
+  border-radius: 5px;
   color:white;
-  padding:1em 1.5em;
+  padding: 15px;
 
   }
+
+  

@@ -10,14 +10,14 @@
     <link rel="stylesheet" href="css/template-grid3.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="js/app.js"></script>
-    <title>Home | Joan Bisquert Peluqueros</title>
+    <title>Home | Juan Bisquert Peluqueros</title>
 </head>
 <body>
     <header>
         <div class="container-fluid headerContainer">
             <div class="row fila-header">
                 <div class="col-3 header-logo">
-                    <a href="home.html"><img id="logo" src="img/logo2.jpg" alt="logo"></a>
+                    <a href="home.html"><img class="logo" src="img/logo-bueno.png" alt="logo"></a>
                 </div>
             
                 <div class="col-5 horario">
@@ -38,7 +38,7 @@
                         <div class="col-3 reloj">
                             <div class="row fila-reloj">
                                 <i class="fas fa-store-alt"></i>
-                                <p>Calle Sagunto Nº X</p>
+                                <p>Calle Sagunto Nº 10</p>
                                 <p>03700</p>
                                 <p>Dènia</p>
                                 <p>Alicante</p>
@@ -57,7 +57,39 @@
                 </div>
                 <div class="col-1 col-carrito">
                 
-                    <a href="#" class="button-two">Log In</a>
+                    <div class="col-1 col-carrito">
+
+                        <button onclick="document.getElementById('id01').style.display='block'"
+                            class="button-two">Login</button>
+                        <div id="id01" class="modal">
+                            <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                                title="Close Modal">&times;</span>
+    
+                            <!-- Modal Content -->
+                            <form class="modal-content animate" action="/action_page.php">
+                                <div class="imgcontainer">
+                                    <img src="img/avatar.jpeg" alt="Avatar" class="avatar">
+                                </div>
+    
+                                <div class="container2">
+                                    <label for="uname"><b>Usuario</b></label>
+                                    <input type="text" placeholder="Enter Username" name="uname" required>
+    
+                                    <label for="psw"><b>Password</b></label>
+                                    <input type="password" placeholder="Enter Password" name="psw" required>
+                                    <input type="checkbox" checked="checked" id="remember"> Recuerdame
+                                    <span>¿Se ha olvidado de su <a href="#">password?</a></span>
+                                </div>
+    
+    
+                                <div class="container2" style="background-color:#f1f1f1">
+                                    <button type="submit" class="loginbtn">Login</button>
+                                    <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                                        class="cancelbtn">Cancelar</button>
+                                </div>
+    
+                            </form>
+                        </div>
                     <a href="#" class="button-two">Sign Up</a>
 
                     <div class="row fila-carrito">
@@ -73,10 +105,10 @@
                     <div class="col-11 barra-nav-elementos">
                         <a href="home.html">Home</a>
                         <a href="servicios.html">Servicios</a>
-                        <a href="quienes-somos.html">Quienes Somos</a>
+                        <a href="quienes-somos.html">Quiénes Somos</a>
                         <a href="galeria.html">Galería</a>
                         <a href="blog.html">Blog</a>
-                        <a href="contacto.html">Contacto</a>
+                        <a href="contacto.html" class="active">Contacto</a>
                         <a href="tienda.html">Tienda</a>
                     </div>
                 </div>
@@ -111,7 +143,7 @@
                 </fieldset>
                 <fieldset><legend>Mensaje</legend>
                 <label for="field6"><span>Mensaje <span class="required">*</span></span><textarea cols="30" rows="6"></textarea></label>
-                <label><span></span><input type="submit" value="Submit" /></label>
+                <label><span></span><input type="submit" value="Enviar" /></label>
                 </fieldset>
                 </form>
                 </div>
@@ -124,49 +156,51 @@
 </div>
 
 
-    <footer>
-        <div class="container-fluid">
-            <div class="row fila-footer">
-                <div class="col-2 col-footer-enlaces">
-                    <a href="home.html">Home</a>
-                        <a href="servicios.html">Servicios</a>
-                        <a href="quienessomos.html">Quienes Somos</a>
-                        <a href="galeria.html">Galería</a>
-                </div>
-                <div class="col-2 col-footer-enlaces">
-                        <a href="reserva-cita.html">Reservar Cita</a>
-                        <a href="blog.html">Blog</a>
-                        <a href="contacto.html">Contacto</a>
-                        <a href="tienda.html">Tienda</a>
-
-                </div>
-                <div class="col-3 mapa">
-
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24858.52294936146!2d-0.11327570000000001!3d38.8481375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1607584769281!5m2!1ses!2ses" width="100%" height="300" frameborder="1" style="border:1;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima similique laborum repellat quia est nulla eos perspiciatis tenetur molestias dignissimos, vitae a quas asperiores aspernatur mollitia incidunt saepe optio officia.
-                    </p>
-
-                </div>
+<footer>
+    <div class="container-fluid">
+        <div class="row fila-footer">
+            <div class="col-2 col-footer-enlaces enlaces-first">
+                <a href="home.html">Home</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="quienes-somos.html">Quiénes Somos</a>
+                <a href="galeria.html">Galería</a>
             </div>
-            <div class="row fila-iconos-rrss">
-                <div class="col-3 col-iconos-rrss">
-                    <img src="img/facebook-logo.svg" alt="facebook">
-                    <img src="img/instagram-logo.svg" alt="instagram">
-                    <img src="img/whatsapp.svg" alt="whatsapp">
-                </div>
+            <div class="col-2 col-footer-enlaces">
+                <a href="reserva-cita.html">Reservar Cita</a>
+                <a href="blog.html">Blog</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="tienda.html">Tienda</a>
+
             </div>
-            <div class="row fila-footer-politicas">
-                <div class="col-3 col-footer-politicas">
-                    <span>© 2020 VaporDev Web Designs</span>
-                </div>
-                <div class="col-8 col-footer-avisos-legales">
-                    <a href="reserva-cita.html">Política</a>
-                    <a href="blog.html">Cookies</a>
-                    <a href="contacto.html">Aviso Legal</a>
-                    <a href="tienda.html">Tienda</a>
-                </div>
+            <div class="col-3 mapa">
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d194.2393834628329!2d0.10468218085136947!3d38.83635088764253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129e1b237dbfec7f%3A0x4882a2521c7a073d!2sCarrer%20de%20Sagunt%2C%2010%2C%2003700%20D%C3%A9nia%2C%20Alacant!5e0!3m2!1ses!2ses!4v1608655685043!5m2!1ses!2ses"
+                     width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <p>C/ Sagunto Bajo 10</p>
+                <p>Denia (Alicante)</p>
+                <p>96 654 55 44</p>
+
             </div>
         </div>
-    </footer>
+        <div class="row fila-iconos-rrss">
+            <div class="col-3 col-iconos-rrss">
+                <a href="#"><img src="img/facebook-logo.svg" alt="facebook"></a>
+                <a href="#"><img src="img/instagram-logo.svg" alt="instagram"></a>
+                <a href="#"><img src="img/whatsapp.svg" alt="whatsapp"></a>
+            </div>
+        </div>
+        <div class="row fila-footer-politicas">
+            <div class="col-3 col-footer-politicas">
+                <span>© 2020 VaporDev Web Designs</span>
+            </div>
+            <div class="col-8 col-footer-avisos-legales">
+                <a href="#">Política</a>
+                <a href="#">Cookies</a>
+                <a href="#">Aviso Legal</a>
+                <a href="#">Tienda</a>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

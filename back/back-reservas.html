@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/styles-back.css">
+  <link rel="stylesheet" href="../css/calendar.css">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/table.css">
+  <link rel="stylesheet" href="../css/template-grid3.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="../js/calendar.js"></script>
+  <title>BackOffice | Joan Bisquert Peluqueros</title>
+</head>
+
+<body>
+  <header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-header">
+          <div class="container-fluid headerContainer">
+            <div class="row fila-header">
+              <div class="col-2 header-logo">
+                <a href="back-reservas.html"><img class="logo" src="../img/logo-bueno.png" alt="logo"></a>
+              </div>
+              <div class="col-1 navbar iconos-header">
+                <a href="#"><i class="far fa-envelope"></i></a>
+                <a href="#"><i class="far fa-bell"></i></a>
+
+              </div>
+
+              <div class="col-6">
+
+
+              </div>
+              <div class="col-3">
+                <div class="topnav">
+
+                  <input type="text" placeholder="Buscar..">
+                  <a href="#"><i class="fas fa-search"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="row navbar-vertical">
+      <div class="col-12 col-navbar">
+        <div class="sidebar">
+          <a href="back-reservas.html" class="active"><i class="far fa-calendar-alt"></i>CALENDARIO RESERVAS</a>
+          <a href="#"><i class="far fa-images"></i>GALERIA</a>
+          <a href="#"><i class="fab fa-blogger-b"></i>BLOG</a>
+          <a href="back-tienda.html"><i class="fas fa-store-alt"></i>TIENDA</a>
+          <a href="#"><i class="far fa-newspaper"></i>ARTICULOS</a>
+          <a href="#"><i class="fas fa-border-all"></i>LAYOUT</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row fila-calendario">
+      <div class="col-4 col-calendario">
+        <iframe
+          src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FMadrid&amp;src=dHJhZGVyLmRheTI0QGdtYWlsLmNvbQ&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZXMuc3BhaW4jaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%236d003f&amp;color=%236d003f&amp;color=%236d003f"
+          style="border:solid 1px black" width="120%" height="180%" frameborder="0" scrolling="no"></iframe>
+      </div>
+    </div>
+    <div class="row fila-tabla">
+      <div class="col-2"></div>
+      <div class="col-7 col-tabla">
+        <section>
+          <div class="tbl-header">
+            <table>
+              <thead>
+                <tr>
+                  <th>Nombre</th>
+                  <th>Apellidos</th>
+                  <th>Hora</th>
+                  <th>Servicio</th>
+                  <th>Acción</th>
+                </tr>
+              </thead>
+            </table>
+          </div>
+          <div class="tbl-content">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Carmen</td>
+                  <td>Muñoz Garcia</td>
+                  <td>11:00</td>
+                  <td>Color</td>
+                  <td><button class="button-five">Editar</button><button class="button-five">Borrar</button></td>
+                </tr>
+                <tr>
+                  <td>Juan</td>
+                  <td>Lopez Jurado</td>
+                  <td>18:00</td>
+                  <td>Corte</td>
+                  <td><button class="button-five">Editar</button><button class="button-five">Borrar</button></td>
+                </tr>
+                <tr>
+                  <td>Carmen</td>
+                  <td>Muñoz Garcia</td>
+                  <td>11:00</td>
+                  <td>Color</td>
+                  <td><button class="button-five">Editar</button><button class="button-five">Borrar</button></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+    </div>
+
+  </main>
+
+</body>
+
+</html>

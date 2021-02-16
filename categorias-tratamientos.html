@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/template-grid3.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <script src="js/app.js"></script>
+    <title>Tienda | Juan Bisquert Peluqueros</title>
+</head>
+
+<body onload="docReady()">
+    <header>
+        <div class="container-fluid headerContainer">
+            <div class="row fila-header">
+                <div class="col-3 header-logo">
+                    <a href="home.html"><img class="logo" src="img/logo-bueno.png" alt="logo"></a>
+                </div>
+
+                <div class="col-5 horario">
+
+                    <div class="row fila-banner">
+
+                        <div class="col-3 reloj">
+                            <div class="row fila-reloj">
+
+                                <i class="fa fa-clock"></i>
+                                <p>Lunes a Viernes</p>
+                                <p>09:30 - 13:00</p>
+                                <p>16:30 - 20:00</p>
+                                <p>Sábados cerrados a mediodía</p>
+                            </div>
+                        </div>
+
+                        <div class="col-3 reloj">
+                            <div class="row fila-reloj">
+                                <i class="fas fa-store-alt"></i>
+                                <p>Calle Sagunto Nº 10</p>
+                                <p>03700</p>
+                                <p>Dènia</p>
+                                <p>Alicante</p>
+                            </div>
+                        </div>
+                        <div class="col-3 reloj">
+                            <div class="row fila-reloj">
+                                <i class="fas fa-phone"></i>
+                                <p>Móvil: 645 45 45 11</p>
+                                <p>Solo whatsapp</p>
+                                <p>Fijo: 96 455 78 74</p>
+                                <p>@juanbisquert</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1 col-carrito">
+
+                    <div class="col-1 col-carrito">
+
+                        <button onclick="document.getElementById('id01').style.display='block'"
+                            class="button-two">Login</button>
+                        <div id="id01" class="modal">
+                            <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                                title="Close Modal">&times;</span>
+
+                            <!-- Modal Content -->
+                            <form class="modal-content animate" action="/action_page.php">
+                                <div class="imgcontainer">
+                                    <img src="img/avatar.jpeg" alt="Avatar" class="avatar">
+                                </div>
+
+                                <div class="container2">
+                                    <label for="uname"><b>Usuario</b></label>
+                                    <input type="text" placeholder="Enter Username" name="uname" required>
+
+                                    <label for="psw"><b>Password</b></label>
+                                    <input type="password" placeholder="Enter Password" name="psw" required>
+                                    <input type="checkbox" checked="checked" id="remember"> Recuerdame
+                                    <span>¿Se ha olvidado de su <a href="#">password?</a></span>
+                                </div>
+
+
+                                <div class="container2" style="background-color:#f1f1f1">
+                                    <button type="submit" class="loginbtn">Login</button>
+                                    <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                                        class="cancelbtn">Cancelar</button>
+                                </div>
+
+                            </form>
+                        </div>
+                        <a href="#" class="button-two">Sign Up</a>
+
+                        <div class="row fila-carrito">
+                            <div class="col-12">
+                                <i class="fas fa-shopping-cart"><span>0,00&nbsp;€</span></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container-fluid container-barra-nav">
+                    <div class="row barra-nav">
+                        <div class="col-11 barra-nav-elementos">
+                            <a href="home.html">Home</a>
+                            <a href="servicios.html">Servicios</a>
+                            <a href="quienes-somos.html">Quiénes Somos</a>
+                            <a href="galeria.html">Galería</a>
+                            <a href="blog.html">Blog</a>
+                            <a href="contacto.html">Contacto</a>
+                            <a href="tienda.html" class="active">Tienda</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Aqui falta la ruta -->
+
+                <div class="container-fluid">
+                    <div class="row fila-ruta">
+                        <div class="col-5 col-ruta">
+                            <div><span>Estas aquí: </span><a href="tienda.html">Tienda</a><span><i
+                                        class="fa fa-caret-right"></i><a href="categorias-tratamientos.html"
+                                        class="active">Tratamientos</a></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+    </header>
+
+    <h1><a href="tienda.html"><i class="fa fa-arrow-left"></i>ATRÁS</a></h1>
+
+    <div class="container-fluid">
+        <div class="row fila-galeria-peluqueria">
+            <div class="col-2">
+                <div class="sidenav">
+                    <a href="tienda.html">Inicio</a>
+                    <button class="dropdown-btn">Categorias
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-container">
+                        <a href="categorias-champu.html">Champús</a>
+                        <a href="categorias-tratamientos.html">Tratamientos</a>
+                        <a href="categorias-accesorios.html">Accesorios</a>
+                    </div>
+                </div>
+            </div>
+                <div class="col-6">
+                    <h1>Tratamientos capilares</h1>
+                    <div class="container-fluid slideshow-container">
+
+                        <!-- Full-width images with number and caption text -->
+
+
+                        <div class="mySlides fade tienda-frontal">
+                            <img src="img/productos/olaplex.png" style="width:100%; height: 580px">
+                        </div>
+
+                        <div class="mySlides fade tienda-frontal">
+                            <img src="img/productos/kit-gold.jpg" style="width:100%; height: 580px">
+                        </div>
+
+                        <div class="mySlides fade tienda-frontal">
+                            <img src="img/productos/sebastian-kit-3.jpg" style="width:100%; height: 580px">
+                        </div>
+                        <div class="mySlides fade tienda-frontal">
+                            <img src="img/productos/kit-sebastian.jpg" style="width:100%; height: 580px">
+                        </div>
+                        <div class="mySlides fade tienda-frontal">
+                            <img src="img/productos/kerastase-soleil-kit.jpg" style="width:100%; height: 580px">
+                        </div>
+
+
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                </div>
+                <div class="col-4 col-servicios-imagenes">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="gallery-container w-3 h-2">
+                                <div class="gallery-item productos">
+                                    <div class="image">
+                                        <img src="img/productos/kit-gold2.jpg" alt="kit-gold">
+                                    </div>
+                                    <div class="text">
+                                        <p>Kit Gold</p>78,95 €
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-6">
+                            <div class="gallery-container w-3 h-2">
+                                <div class="gallery-item productos">
+                                    <div class="image">
+                                        <img src="img/productos/post-alisado.jpg" alt="post-alisado">
+                                    </div>
+                                    <div class="text">
+                                        <p>Post alisado</p>24,95 €
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="gallery-container w-3 h-2">
+                                <div class="gallery-item productos">
+                                    <a href="producto-detalle.html"><div class="image">
+                                        <img src="img/productos/kit-sebastian-twisted.jpg" alt="kit-sebastian-twisted">
+                                    </div>
+                                    <div class="text">
+                                        <p>Kit Sebastian Twisted</p>60 €
+                                    </div>
+                                </div></a>
+                            </div>
+
+                        </div>
+                        <div class="col-6">
+                            <div class="gallery-container w-3 h-2">
+                                <div class="gallery-item productos">
+                                    <div class="image">
+                                        <img src="img/productos/philip-martins.jpg" alt="philip-martins">
+                                    </div>
+                                    <div class="text">
+                                        <p>Philip Martins aceite</p>8,95 €
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+
+        <div class="container-fluid">
+            <div class="row titulo-miniaturas-tienda">
+                <div class="col-12">
+                    <h2>Ampollas y serums</h2>
+                    <hr>
+                    <div class="row productos-miniaturas">
+                        <div class="col-2 miniatura"><img src="img/productos/ampolla-1.jpg"
+                                alt="ampolla-1">
+                            <span>27,50 €</span>
+                            <p>Kerastase Discipline</p>
+                            <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
+                            
+                        </div>
+                        <div class="col-2 miniatura"><img src="img/productos/ampolla-2.jpg"
+                                alt="ampolla-2">
+                            <span>82,50 €</span>
+                            <p>Kerastase Soleil Kit</p>
+                            <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
+                            
+
+                        </div>
+                        <div class="col-2 miniatura"><img src="img/productos/ampollas-salerm.jpg"
+                                alt="ampollas-salerm">
+                            <span>18,95 €</span>
+                            <p>Sebastian Penetrate</p>
+                            <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
+                            
+
+                        </div>
+                        <div class="col-2 miniatura"><img src="img/productos/ampolla-pro-longer.jpg" alt="ampolla-pro-longer">
+                            <span>12,95 €</span>
+                            <p>Loreal Expert Champú</p>
+                            <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
+                            
+
+                        </div>
+                        <div class="col-2 miniatura"><img src="img/productos/wella-serum.jpg" alt="wella-serum">
+                            <span>16,95 €</span>
+                            <p>Wella Serum</p>
+                            <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
+                            
+                        </div>
+                        <div class="col-2 miniatura"><img src="img/productos/elvive-ampollas.jpg" alt="elvive-ampollas">
+                            <span>26,75 €</span>
+                            <p>Elvive ampollas revitalizantes</p>
+                            <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
+                            
+                        </div>
+                        <div class="col-2 miniatura"><img src="img/productos/kerastase-densifique-cure.jpg" alt="kerastase-densifique-cure">
+                            <span>45,95 €</span>
+                            <p>Kerastase Densifique Cure</p>
+                            <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
+                            
+                        </div>
+                        <div class="col-2 miniatura"><img src="img/productos/kit-olaplex-2.jpg" alt="kit-olaplex-2">
+                            <span>14,95 €</span>
+                            <p>Champú natural Olaplex</p>
+                            <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
+                            
+                        </div>
+                        <div class="col-2 miniatura"><img src="img/productos/kerastease-elixir.jpg" alt="kerastease-elixir">
+                            <span>15,50 €</span>
+                            <p>Color Care Champú</p>
+                            <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
+                            
+                        </div>
+                        <div class="col-2 miniatura"><img src="img/productos/loreal-aceite.jpg" alt="loreal-aceite">
+                            <span>19,95 €</span>
+                            <p>Kerastase Champú</p>
+                            <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <footer>
+            <div class="container-fluid">
+                <div class="row fila-footer">
+                    <div class="col-2 col-footer-enlaces enlaces-first">
+                        <a href="home.html">Home</a>
+                        <a href="servicios.html">Servicios</a>
+                        <a href="quienes-somos.html">Quiénes Somos</a>
+                        <a href="galeria.html">Galería</a>
+                    </div>
+                    <div class="col-2 col-footer-enlaces">
+                        <a href="reserva-cita.html">Reservar Cita</a>
+                        <a href="blog.html">Blog</a>
+                        <a href="contacto.html">Contacto</a>
+                        <a href="tienda.html">Tienda</a>
+
+                    </div>
+                    <div class="col-3 mapa">
+
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d194.2393834628329!2d0.10468218085136947!3d38.83635088764253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129e1b237dbfec7f%3A0x4882a2521c7a073d!2sCarrer%20de%20Sagunt%2C%2010%2C%2003700%20D%C3%A9nia%2C%20Alacant!5e0!3m2!1ses!2ses!4v1608655685043!5m2!1ses!2ses"
+                            width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe>
+                        <p>C/ Sagunto Bajo 10</p>
+                        <p>Denia (Alicante)</p>
+                        <p>96 654 55 44</p>
+
+                    </div>
+                </div>
+                <div class="row fila-iconos-rrss">
+                    <div class="col-3 col-iconos-rrss">
+                        <a href="#"><img src="img/facebook-logo.svg" alt="facebook"></a>
+                        <a href="#"><img src="img/instagram-logo.svg" alt="instagram"></a>
+                        <a href="#"><img src="img/whatsapp.svg" alt="whatsapp"></a>
+                    </div>
+                </div>
+                <div class="row fila-footer-politicas">
+                    <div class="col-3 col-footer-politicas">
+                        <span>© 2020 VaporDev Web Designs</span>
+                    </div>
+                    <div class="col-8 col-footer-avisos-legales">
+                        <a href="sitemap.html">Sitemap</a>
+                        <a href="#">Política</a>
+                        <a href="#">Cookies</a>
+                        <a href="#">Aviso Legal</a>
+                        <a href="#">Tienda</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+
+</html>

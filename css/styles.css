@@ -30,6 +30,17 @@ h2 {
 
 }
 
+.boton-carrito {
+
+  margin-top: 30px !important;
+  padding: 10px !important;
+  font-size: 16px !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  width: 30% !important;
+
+}
+
 .boton-formulario {
 
   display: flex;
@@ -57,12 +68,37 @@ h2 {
 
 }
 
+.blog-entrada {
+
+  border: 1px solid lightgray;
+  box-shadow: 10px 5px 5px gray;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-bottom: 30px;
+
+}
+
+.col-fecha-entradas {
+
+  border: 1px solid lightgray;
+  box-shadow: 10px 5px 5px gray;
+  margin-top: 50px;
+  margin-bottom: 30px;
+
+}
+
 .col-precios {
 
   display: flex;
   justify-content: center;
   align-items: center;
 
+
+}
+
+.col-productos {
+
+    margin-top: 40px;
 
 }
 
@@ -91,6 +127,12 @@ h2 {
 
 }
 
+.col-servicios-imagenes {
+
+  margin-top: 60px;
+
+}
+
 .col-texto-tienda {
 
   justify-content: center;
@@ -104,6 +146,28 @@ h2 {
 
 }
 
+.descripcion-producto {
+
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+
+
+}
+
+.fecha-entrada {
+  color: gray;
+  font-size: 12px;
+  margin-bottom: 15px;
+
+
+}
+
+.fila-blog h2 {
+
+  margin-left: 40px;
+}
+
 
 .fila-botones-precios {
 
@@ -112,6 +176,30 @@ h2 {
   justify-content: flex-end;
 
 
+}
+
+.fila-tratamientos-galeria {
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+
+}
+
+.fila-tratamientos-galeria h1 {
+
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+}
+
+.fila-entrada {
+
+  display: flex;
+  justify-content: space-between;
+  
 }
 
 
@@ -137,6 +225,21 @@ h2 {
   margin-top: 120px;
   margin-bottom: 50px;
 
+
+}
+
+.fila-galeria-peluqueria {
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.fila-galeria-peluqueria h1 {
+
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 15px;
 
 }
 
@@ -227,9 +330,10 @@ h2 {
 
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: center;
 
 }
+
 
 .fotos-tienda {
 
@@ -253,14 +357,50 @@ h2 {
 
 }
 
-iframe .blog {
+.icono-dropdown {
 
-  width: 100%;
-  max-width: 700px;
+  display: flex;
+  justify-content: start;
+  font-size: 22px;
+  margin: 3px;
 
 }
 
-.imagenes-quienes-somos {}
+
+.img-thumbnail {
+
+  border: 1px solid lightgray;
+  
+
+}
+
+.leyenda-blog {
+  
+  font-size: 20px;
+  list-style: none;
+
+}
+
+.meses {
+
+  margin-left: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+
+.meses a {
+
+  text-decoration: none;
+  color: black;
+
+}
+
+.meses a:hover {
+
+  color: rgb(124, 0, 128);
+
+}
 
 .miniatura button {
 
@@ -303,6 +443,14 @@ iframe .blog {
 
 }
 
+.miniatura:hover {
+
+  margin-top: 15px;
+  border: 1px solid lightgray;
+  box-shadow: lightgray 10px 5px 5px 2px;
+  padding: 10px;
+}
+
 
 .partner {
 
@@ -310,6 +458,15 @@ iframe .blog {
   height: 80%;
   margin-top: 25px;
   border: 1px solid black;
+
+}
+
+.productos {
+
+  margin-top: 15px;
+  border: 1px solid lightgray;
+  box-shadow: lightgray 10px 5px 5px 2px;
+  padding: 10px;
 
 }
 
@@ -329,6 +486,7 @@ iframe .blog {
   align-items: center;
   width: 100%;
   margin-bottom: 20px;
+  padding: 15px;
 
 }
 
@@ -352,6 +510,13 @@ iframe .blog {
   text-align: center;
   font-size: 24px;
   line-height: 2;
+
+}
+
+.texto-entrada {
+
+    margin-top: 15px;
+    font-size: 18px;
 
 }
 
@@ -409,6 +574,9 @@ iframe .blog {
 .tienda-frontal {
 
   margin-top: 40px;
+  border: 1px solid lightgray;
+  box-shadow: lightgray 10px 5px 5px 2px;
+  padding: 15px;
 
 }
 
@@ -417,6 +585,13 @@ iframe .blog {
   width: 100%;
   height: 100%;
 
+
+}
+
+.titulo-entrada {
+
+  margin-bottom: 10px;
+  font-size: 32px;
 
 }
 
@@ -657,11 +832,11 @@ iframe .blog {
 .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 70%;
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: black;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -678,13 +853,14 @@ iframe .blog {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: white;
 }
 
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 15px;
+  font-size: 20px;
+  font-weight: 600;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -1093,6 +1269,7 @@ span.psw {
 
 }
 
+
 /* Modal Content/Box */
 .modal-content {
   background-color: rgb(109, 0, 63);
@@ -1124,6 +1301,7 @@ span.psw {
   -webkit-animation: animatezoom 0.6s;
   animation: animatezoom 0.6s
 }
+
 
 @-webkit-keyframes animatezoom {
   from {
@@ -1160,5 +1338,69 @@ span.psw {
 
   .loginbtn {
     width: 100%;
+  }
+  
+}
+
+@media only screen and (min-width: 768px) {
+
+  /* For tablets and */
+  .container {
+    width: 738px;
+  }
+
+  .barra-nav-elementos a {
+
+    text-decoration: none;
+    font-size: 16px;
+    margin: 3px;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+
+  }
+
+  .horario {
+
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .reloj {
+
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+  }
+
+  .container2 span {
+
+
+    margin-left: 0;
+
+
+  }
+
+
+}
+
+@media only screen and (min-width: 769px) {
+  .container {
+    width: 739px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 1160px;
   }
 }

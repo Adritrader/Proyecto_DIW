@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/template-grid3.css">
-    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.13/css/all.css">
     <script src="js/app.js"></script>
     <title>Tienda | Juan Bisquert Peluqueros</title>
 </head>
@@ -105,8 +105,8 @@
                     <div class="row barra-nav">
                         <div class="col-11 barra-nav-elementos">
                             <a href="home.html">Home</a>
-                            <a href="servicios.html">Servicios</a>
-                            <a href="quienes-somos.html">Quiénes Somos</a>
+                            <a href="servicios-peluqueria.html">Servicios</a>
+                            <a href="quienes-somos-equipo.html">Quiénes Somos</a>
                             <a href="galeria.html">Galería</a>
                             <a href="blog.html">Blog</a>
                             <a href="contacto.html">Contacto</a>
@@ -121,8 +121,8 @@
                     <div class="row fila-ruta">
                         <div class="col-5 col-ruta">
                             <div><span>Estas aquí: </span><a href="tienda.html">Tienda</a><span><i
-                                        class="fa fa-caret-right"></i><a href="producto-detalle.html"
-                                        class="active">Producto</a></span></div>
+                                        class="fa fa-caret-right"></i><a href="categorias-champu.html"
+                                        class="active">Champús</a></span></div>
                         </div>
                     </div>
                 </div>
@@ -131,7 +131,9 @@
 
     </header>
 
-    <h1><a href="tienda.html"><i class="fa fa-arrow-left"></i>ATRÁS</a></h1>
+    <!--Por hacer-->
+
+    <h1 class="volver"><a href="tienda.html" class="volver"><i class="fas fa-chevron-left atras"></i>ATRÁS</a></h1>
 
     <div class="container-fluid">
         <div class="row fila-galeria-peluqueria">
@@ -149,95 +151,96 @@
 
                 </div>
             </div>
-                <div class="col-6">
-                    <h1>Champús / Acondicionadores</h1>
-                    <div class="container-fluid slideshow-container">
+            <div class="col-6">
+                <h1>Champús / Acondicionadores</h1>
+                <div class="container-fluid slideshow-container">
 
-                        <!-- Full-width images with number and caption text -->
+                    <!-- Full-width images with number and caption text -->
 
 
-                        <div class="mySlides fade tienda-frontal">
-                            <img src="img/productos/champus-frontal1.jpg" style="width:100%; height: 580px">
+                    <div class="mySlides fade tienda-frontal">
+                        <img src="img/productos/champus-frontal1.jpg" style="width:100%; height: 580px">
+                    </div>
+
+                    <div class="mySlides fade tienda-frontal">
+                        <img src="img/productos/kit-restase2.jpg" style="width:100%; height: 580px">
+                    </div>
+
+                    <div class="mySlides fade tienda-frontal">
+                        <img src="img/productos/icon-champu-frontal.jpg" style="width:100%; height: 580px">
+                    </div>
+                    <div class="mySlides fade tienda-frontal">
+                        <img src="img/productos/kit-sebastian.jpg" style="width:100%; height: 580px">
+                    </div>
+                    <div class="mySlides fade tienda-frontal">
+                        <img src="img/productos/kerastase-soleil-kit.jpg" style="width:100%; height: 580px">
+                    </div>
+
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+            </div>
+            <div class="col-4 col-servicios-imagenes">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="gallery-container w-3 h-2">
+                            <div class="gallery-item productos">
+                                <div class="image">
+                                    <img src="img/productos/loreal-expert.jpg" alt="champu-loreal">
+                                </div>
+                                <div class="text">
+                                    <p>Champú Loreal</p>12,95 €
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="mySlides fade tienda-frontal">
-                            <img src="img/productos/kit-restase2.jpg" style="width:100%; height: 580px">
+                    </div>
+                    <div class="col-6">
+                        <div class="gallery-container w-3 h-2">
+                            <div class="gallery-item productos">
+                                <div class="image">
+                                    <img src="img/productos/champu-icon.jpg" alt="champu-icon">
+                                </div>
+                                <div class="text">
+                                    <p>Champú Icon</p>14,95 €
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="mySlides fade tienda-frontal">
-                            <img src="img/productos/icon-champu-frontal.jpg" style="width:100%; height: 580px">
-                        </div>
-                        <div class="mySlides fade tienda-frontal">
-                            <img src="img/productos/kit-sebastian.jpg" style="width:100%; height: 580px">
-                        </div>
-                        <div class="mySlides fade tienda-frontal">
-                            <img src="img/productos/kerastase-soleil-kit.jpg" style="width:100%; height: 580px">
-                        </div>
-
-
-                        <!-- Next and previous buttons -->
-                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
                     </div>
                 </div>
-                <div class="col-4 col-servicios-imagenes">
-                    <div class="row">
-                        <div class="col-6">
-                            <div class="gallery-container w-3 h-2">
-                                <div class="gallery-item productos">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="gallery-container w-3 h-2">
+                            <div class="gallery-item productos">
+                                <a href="producto-detalle.html">
                                     <div class="image">
-                                        <img src="img/productos/loreal-expert.jpg" alt="champu-loreal">
-                                    </div>
-                                    <div class="text">
-                                        <p>Champú Loreal</p>12,95 €
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="col-6">
-                            <div class="gallery-container w-3 h-2">
-                                <div class="gallery-item productos">
-                                    <div class="image">
-                                        <img src="img/productos/champu-icon.jpg" alt="champu-icon">
-                                    </div>
-                                    <div class="text">
-                                        <p>Champú Icon</p>14,95 €
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-6">
-                            <div class="gallery-container w-3 h-2">
-                                <div class="gallery-item productos">
-                                    <a href="producto-detalle.html"><div class="image">
                                         <img src="img/productos/champu-redken.jpg" alt="champu-redken">
                                     </div>
                                     <div class="text">
                                         <p>Champú Redken</p>18,95 €
                                     </div>
-                                </div></a>
-                            </div>
-
+                            </div></a>
                         </div>
-                        <div class="col-6">
-                            <div class="gallery-container w-3 h-2">
-                                <div class="gallery-item productos">
-                                    <div class="image">
-                                        <img src="img/productos/revlon-champu.jpg" alt="revlon-champu">
-                                    </div>
-                                    <div class="text">
-                                        <p>Revlon Champú</p>8,95 €
-                                    </div>
+
+                    </div>
+                    <div class="col-6">
+                        <div class="gallery-container w-3 h-2">
+                            <div class="gallery-item productos">
+                                <div class="image">
+                                    <img src="img/productos/revlon-champu.jpg" alt="revlon-champu">
+                                </div>
+                                <div class="text">
+                                    <p>Revlon Champú</p>8,95 €
                                 </div>
                             </div>
-
                         </div>
+
                     </div>
                 </div>
+            </div>
         </div>
 
 
@@ -247,72 +250,132 @@
                     <h2>Champús</h2>
                     <hr>
                     <div class="row productos-miniaturas">
-                        <div class="col-1 miniatura"><img src="img/productos/kerastase-discipline.jpg"
+                        <div class="col-2 miniatura"><img src="img/productos/kerastase-discipline.jpg"
                                 alt="kerastase-discipline">
                             <span>27,50 €</span>
-                            <p>Kerastase Discipline</p>
-                            <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
-                            
+                            <h2 class="nombre-producto">Kerastase Discipline</h2>
+                            <p class="producto-card-text">Kerastase Discipline champú para cabellos resistentes, cubre
+                                de una película protectora</p>
+                            <div class="row">
+                                <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
+                            </div>
+                            <div class="row">
+                                <button class="button-three"><i class="fas fa-shopping-cart"></i>Añadir compra</button>
+                            </div>
                         </div>
-                        <div class="col-1 miniatura"><img src="img/productos/kerastase-soleil-kit.jpg"
+                        <div class="col-2 miniatura"><img src="img/productos/kerastase-soleil-kit.jpg"
                                 alt="kerastase-kit">
                             <span>82,50 €</span>
-                            <p>Kerastase Soleil Kit</p>
-                            <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
-                            
+                            <h2 class="nombre-producto">Kerastase Soleil Kit</h2>
+                            <p class="producto-card-text">Kerastase Soleil Kit es un kit de champús y acondicionadores,
+                                para el mejor cuidado de su cabello</p>
+                            <div class="row">
+                                <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
+                            </div>
+                            <div class="row">
+                                <button class="button-three"><i class="fas fa-shopping-cart"></i>Añadir compra</button>
+                            </div>
 
                         </div>
-                        <div class="col-1 miniatura"><img src="img/productos/sebastian-mascarilla.jpg"
+                        <div class="col-2 miniatura"><img src="img/productos/sebastian-mascarilla.jpg"
                                 alt="sebastian-mascarilla">
                             <span>18,95 €</span>
-                            <p>Sebastian Penetrate</p>
-                            <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
-                            
+                            <h2 class="nombre-producto">Sebastian Penetrate</h2>
+                            <p class="producto-card-text">Sebastian Penetrate es un champú profesional dirigido a
+                                personas con cabello liso y fino</p>
+                            <div class="row">
+                                <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
+                            </div>
+                            <div class="row">
+                                <button class="button-three"><i class="fas fa-shopping-cart"></i>Añadir compra</button>
+                            </div>
+
 
                         </div>
-                        <div class="col-1 miniatura"><img src="img/productos/loreal-expert.jpg" alt="loreal-expert">
+                        <div class="col-2 miniatura"><img src="img/productos/loreal-expert.jpg" alt="loreal-expert">
                             <span>12,95 €</span>
-                            <p>Loreal Expert Champú</p>
-                            <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
-                            
+                            <h2 class="nombre-producto">Loreal Expert Champú</h2>
+                            <p class="producto-card-text">Loreal Expert Champú para todo tipo de cabellos, siente el
+                                frescor natural en tu cabello</p>
+                            <div class="row">
+                                <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
+                            </div>
+                            <div class="row">
+                                <button class="button-three"><i class="fas fa-shopping-cart"></i>Añadir compra</button>
+                            </div>
 
                         </div>
-                        <div class="col-1 miniatura"><img src="img/productos/champu.jpg" alt="champu-acondicionador">
+                        <div class="col-2 miniatura"><img src="img/productos/champu.jpg" alt="champu-acondicionador">
                             <span>6,95 €</span>
-                            <p>Champú pelo liso</p>
-                            <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
-                            
+                            <h2 class="nombre-producto">Artistic</h2>
+                            <p class="producto-card-text">Champú para cabellos con colores aplicados, protege y nutre
+                                desde la raíz a las puntas. </p>
+                            <div class="row">
+                                <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
+                            </div>
+                            <div class="row">
+                                <button class="button-three"><i class="fas fa-shopping-cart"></i>Añadir compra</button>
+                            </div>
                         </div>
-                        <div class="col-1 miniatura"><img src="img/productos/champu-icon2.jpg" alt="champu-icon-pro">
+                        <div class="col-2 miniatura"><img src="img/productos/champu-icon2.jpg" alt="champu-icon-pro">
                             <span>16,45 €</span>
-                            <p>Champú Icon Hydro </p>
-                            <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
-                            
+                            <h2 class="nombre-producto">Icon Hydro</h2>
+                            <p class="producto-card-text">Champú Icon Hydro hidrata su cabello dandole una energiía y vitalidad únicas. Apto para todo tipo de cabellos</p>
+                            <div class="row">
+                                <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
+                            </div>
+                            <div class="row">
+                                <button class="button-three"><i class="fas fa-shopping-cart"></i>Añadir compra</button>
+                            </div>
                         </div>
-                        <div class="col-1 miniatura"><img src="img/productos/sebastian-hydre.jpg" alt="sebastian-hydre">
+                        <div class="col-2 miniatura"><img src="img/productos/sebastian-hydre.jpg" alt="sebastian-hydre">
                             <span>18,95 €</span>
-                            <p>Sebastian Hydre Champú</p>
-                            <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
-                            
+                            <h2 class="nombre-producto">Sebastian Hydre</h2>
+                            <p class="producto-card-text">Sebastian Hydre es un champú hidratante , nutre el cabello y lo deja con un tacto suave y agradable</p>
+                            <div class="row">
+                                <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
+                            </div>
+                            <div class="row">
+                                <button class="button-three"><i class="fas fa-shopping-cart"></i>Añadir compra</button>
+                            </div>
                         </div>
-                        <div class="col-1 miniatura"><img src="img/productos/olaplex.jpg" alt="champu-salerm">
+                        <div class="col-2 miniatura"><img src="img/productos/olaplex.jpg" alt="champu-salerm">
                             <span>14,95 €</span>
-                            <p>Champú natural Olaplex</p>
-                            <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
-                            
+                            <h2 class="nombre-producto">Champú Olaplex</h2>
+                            <p class="producto-card-text">Champú natural Olaplex, cuida su cabello y lo protege de la raíz a las puntas, apto para cabellos grasos</p>
+                            <div class="row">
+                                <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
+                            </div>
+                            <div class="row">
+                                <button class="button-three"><i class="fas fa-shopping-cart"></i>Añadir compra</button>
+                            </div>
                         </div>
-                        <div class="col-1 miniatura"><img src="img/productos/color-care-champu.jpg" alt="color-care-champu">
+                        <div class="col-2 miniatura"><img src="img/productos/color-care-champu.jpg"
+                                alt="color-care-champu">
                             <span>15,50 €</span>
-                            <p>Color Care Champú</p>
-                            <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
-                            
+                            <h2 class="nombre-producto">Color Care Champú</h2>
+                            <p class="producto-card-text"> Champú Color Care, protege el color de su cabello, le da un brillo natural y un planchado excelente</p>
+
+                            <div class="row">
+                                <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
+                            </div>
+                            <div class="row">
+                                <button class="button-three"><i class="fas fa-shopping-cart"></i>Añadir compra</button>
+                            </div>
                         </div>
-                        <div class="col-1 miniatura"><img src="img/productos/kerastase-champu.png" alt="kerastase-champu">
+                        <div class="col-2 miniatura"><img src="img/productos/kerastase-champu.png"
+                                alt="kerastase-champu">
                             <span>19,95 €</span>
-                            <p>Kerastase Champú</p>
-                            <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
+                            <h2 class="nombre-producto">Kerastase Champú</h2>
+                            <p class="producto-card-text">Kerastase champú para cabellos rotos o dañados. Recupera la salud de su cabello y protege al máximo</p>
+                            <div class="row">
+                                <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
+                            </div>
+                            <div class="row">
+                                <button class="button-three"><i class="fas fa-shopping-cart"></i>Añadir compra</button>
+                            </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -322,72 +385,145 @@
                         <h2>Acondicionadores</h2>
                         <hr>
                         <div class="row productos-miniaturas">
-                            <div class="col-1 miniatura"><img src="img/productos/kerastase-reflection.jpg"
+                            <div class="col-2 miniatura"><img src="img/productos/kerastase-reflection.jpg"
                                     alt="kerastase-discipline">
                                 <span>27,50 €</span>
-                                <p>Kerastase Discipline</p>
-                                <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
-                                
+                                <h2 class="nombre-producto">Kerastase Reflection</h2>
+                                <p class="producto-card-text">Kerastase Reflection el mejor acondicionador para tu pelo
+                                    de calidad profesional</p>
+                                <div class="row">
+                                    <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
+                                </div>
+                                <div class="row">
+                                    <button class="button-three"><i class="fas fa-shopping-cart"></i>Añadir
+                                        compra</button>
+                                </div>
+
                             </div>
-                            <div class="col-1 miniatura"><img src="img/productos/sebastian-mascarilla.jpg"
+                            <div class="col-2 miniatura"><img src="img/productos/sebastian-mascarilla.jpg"
                                     alt="kerastase-kit">
                                 <span>82,50 €</span>
-                                <p>Kerastase Soleil Kit</p>
-                                <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
-                                
-    
+                                <h2 class="nombre-producto">Kerastase Soleil Kit</h2>
+                                <p class="producto-card-text">Kerastase Soleil Kit, contiene todos los productos esenciales para el mayor cuidado de su cabello</p>
+                                <div class="row">
+                                    <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
+                                </div>
+                                <div class="row">
+                                    <button class="button-three"><i class="fas fa-shopping-cart"></i>Añadir
+                                        compra</button>
+                                </div>
+
+
                             </div>
-                            <div class="col-1 miniatura"><img src="img/productos/loreal-aceite.jpg"
-                                    alt="loreal-aceite">
+                            <div class="col-2 miniatura"><img src="img/productos/loreal-aceite.jpg" alt="loreal-aceite">
                                 <span>18,95 €</span>
-                                <p>Loreal Acondicionador/p>
-                                <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
-                                
-    
+                                <h2 class="nombre-producto">Loreal Acondicionador</h2>
+                                <p clasS="producto-card-text">Loreal Acondicionador es un potente acondicionador, protege su cabello y le otorga un brillo excelente</p>
+                                <div class="row">
+                                    <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
+                                </div>
+                                <div class="row">
+                                    <button class="button-three"><i class="fas fa-shopping-cart"></i>Añadir
+                                        compra</button>
+                                </div>
+
+
                             </div>
-                            <div class="col-1 miniatura"><img src="img/productos/serum.jpg" alt="serum">
+                            <div class="col-2 miniatura"><img src="img/productos/serum.jpg" alt="serum">
                                 <span>22,80 €</span>
-                                <p>Serum capilar reparador</p>
-                                <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
-                                
-    
+                                <h2 class="nombre-producto">Serum capilar</h2>
+                                <p class="producto-card-text">Serum capilar acondicionador, protege el pelo y lo nutre, evitando su rotura. Envase de 300 ml.</p>
+                                <div class="row">
+                                    <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
+                                </div>
+                                <div class="row">
+                                    <button class="button-three"><i class="fas fa-shopping-cart"></i>Añadir
+                                        compra</button>
+                                </div>
+
+
                             </div>
-                            <div class="col-1 miniatura"><img src="img/productos/ac.jpg" alt="acondicionador">
+                            <div class="col-2 miniatura"><img src="img/productos/ac.jpg" alt="acondicionador">
                                 <span>7,95 €</span>
-                                <p>Acondicionador Pelo Sedoso</p>
-                                <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
-                                
+                                <h2 class="nombre-producto">Acondicionador Malea</h2>
+                                <p class="producto-card-text">Acondicionador Malea para cabellos secos y quebrados, le otorga salud a su cabello.</p>
+                                <div class="row">
+                                    <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
+                                </div>
+                                <div class="row">
+                                    <button class="button-three"><i class="fas fa-shopping-cart"></i>Añadir
+                                        compra</button>
+                                </div>
+
                             </div>
-                            <div class="col-1 miniatura"><img src="img/productos/acondicionador-general.jpg" alt="acondicionador-general">
+                            <div class="col-2 miniatura"><img src="img/productos/acondicionador-general.jpg"
+                                    alt="acondicionador-general">
                                 <span>9,95 €</span>
-                                <p>Acondicionador Pelo Natural </p>
-                                <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
-                                
+                                <h2 class="nombre-producto">Acondicionador Keq</h2>
+                                <p class="producto-card-text">Acondionador natural Keq, para todo tipo de cabellos, nutre y repara desde la raíz a las puntas</p>
+                                <div class="row">
+                                    <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
+                                </div>
+                                <div class="row">
+                                    <button class="button-three"><i class="fas fa-shopping-cart"></i>Añadir
+                                        compra</button>
+                                </div>
+
                             </div>
-                            <div class="col-1 miniatura"><img src="img/productos/acondicionante.jpg" alt="acondicionante">
+                            <div class="col-2 miniatura"><img src="img/productos/acondicionante.jpg"
+                                    alt="acondicionante">
                                 <span>8,95 €</span>
-                                <p>Acondicionante cabello roto </p>
-                                <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
-                                
+                                <h2 class="nombre-producto">Acondicionador Vital-E</h2>
+                                <p class="producto-card-text">Acondicionador Vital-E para cabellos secos y dañados. Repara y protege el cabello , dandole un brillo natural</p>
+                                <div class="row">
+                                    <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
+                                </div>
+                                <div class="row">
+                                    <button class="button-three"><i class="fas fa-shopping-cart"></i>Añadir
+                                        compra</button>
+                                </div>
                             </div>
-                            <div class="col-1 miniatura"><img src="img/productos/loreal-duo.jpg" alt="loreal-duo">
+                            <div class="col-2 miniatura"><img src="img/productos/loreal-duo.jpg" alt="loreal-duo">
                                 <span>26,95 €</span>
-                                <p>Acondicionador Loreal Dúo</p>
-                                <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
-                                
+                                <h2 class="nombre-producto">Loreal Dúo</h2>
+                                <p class="producto-card-text">Acondicionador Loreal Dúo protege y repara el cabello gracias a la acción combinada de los 2 productos</p>
+                                <div class="row">
+                                    <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
+                                </div>
+                                <div class="row">
+                                    <button class="button-three"><i class="fas fa-shopping-cart"></i>Añadir
+                                        compra</button>
+                                </div>
+
                             </div>
-                            <div class="col-1 miniatura"><img src="img/productos/Acondicionador-B-Salerm-1000ml.jpg" alt="acondicionador-salerm">
+                            <div class="col-2 miniatura"><img src="img/productos/Acondicionador-B-Salerm-1000ml.jpg"
+                                    alt="acondicionador-salerm">
                                 <span>18,75 €</span>
-                                <p>Acondicionador Salerm </p>
-                                <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
-                                
+                                <h2 class="nombre-producto">Acondicionador Salerm</h2>
+                                <p class="producto-card-text">Acondicionador Salerm para cabellos grasos y encrespados. Protege la raíz y desencrespa</p>
+                                <div class="row">
+                                    <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
+                                </div>
+                                <div class="row">
+                                    <button class="button-three"><i class="fas fa-shopping-cart"></i>Añadir
+                                        compra</button>
+                                </div>
+
                             </div>
-                            <div class="col-1 miniatura"><img src="img/productos/flex-acondicionador-cabello-seco.jpg" alt="acondicionador-cabello-seco">
+                            <div class="col-2 miniatura"><img src="img/productos/flex-acondicionador-cabello-seco.jpg"
+                                    alt="acondicionador-cabello-seco">
                                 <span>12,95 €</span>
-                                <p>Acondicionador cabello seco </p>
-                                <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
+                                <h2 class="nombre-producto">ReVlon Flex</h2>
+                                <p class="producto-card-text">Acondicionador Revlon Flex para todo tipo de cabellos. Nutre y repara desde la raíz a las puntas</p>
+                                <div class="row">
+                                    <button class="button-three"><i class="fas fa-info-circle"></i>Ver detalles</button>
+                                </div>
+                                <div class="row">
+                                    <button class="button-three"><i class="fas fa-shopping-cart"></i>Añadir
+                                        compra</button>
+                                </div>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -402,8 +538,8 @@
                 <div class="row fila-footer">
                     <div class="col-2 col-footer-enlaces enlaces-first">
                         <a href="home.html">Home</a>
-                        <a href="servicios.html">Servicios</a>
-                        <a href="quienes-somos.html">Quiénes Somos</a>
+                        <a href="servicios-peluqueria.html">Servicios</a>
+                        <a href="quienes-somos-equipo.html">Quiénes Somos</a>
                         <a href="galeria.html">Galería</a>
                     </div>
                     <div class="col-2 col-footer-enlaces">
@@ -441,7 +577,7 @@
                         <a href="#">Política</a>
                         <a href="#">Cookies</a>
                         <a href="#">Aviso Legal</a>
-                        <a href="#">Tienda</a>
+                        <a href="tienda.html">Tienda</a>
                     </div>
                 </div>
             </div>

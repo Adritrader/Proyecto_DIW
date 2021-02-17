@@ -8,14 +8,15 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/template-grid3.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.13/css/all.css">
     <script src="js/app.js"></script>
-    <title>Galería | Juan Bisquert Peluqueros</title>
+    <title>Servicios | Juan Bisquert Peluqueros</title>
 </head>
 
 <body onload="docReady()">
+
+    <!-- HEADER -->
+
     <header>
         <div class="container-fluid headerContainer">
             <div class="row fila-header">
@@ -48,7 +49,7 @@
                             </div>
                         </div>
                         <div class="col-3 reloj">
-                            <div id="contacto" class="row fila-reloj">
+                            <div class="row fila-reloj">
                                 <i class="fas fa-phone"></i>
                                 <p>Móvil: 645 45 45 11</p>
                                 <p>Solo whatsapp</p>
@@ -60,49 +61,48 @@
                 </div>
                 <div class="col-1 col-carrito">
 
-                    <div class="col-1 col-carrito">
+                    <button onclick="document.getElementById('id01').style.display='block'"
+                        class="button-two">Login</button>
+                    <div id="id01" class="modal">
+                        <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                            title="Close Modal">&times;</span>
 
-                        <button onclick="document.getElementById('id01').style.display='block'"
-                            class="button-two">Login</button>
-                        <div id="id01" class="modal">
-                            <span onclick="document.getElementById('id01').style.display='none'" class="close"
-                                title="Close Modal">&times;</span>
-
-                            <!-- Modal Content -->
-                            <form class="modal-content animate" action="/action_page.php">
-                                <div class="imgcontainer">
-                                    <img src="img/avatar.jpeg" alt="Avatar" class="avatar">
-                                </div>
-
-                                <div class="container2">
-                                    <label for="uname"><b>Usuario</b></label>
-                                    <input type="text" placeholder="Enter Username" name="uname" required>
-
-                                    <label for="psw"><b>Password</b></label>
-                                    <input type="password" placeholder="Enter Password" name="psw" required>
-                                    <input type="checkbox" checked="checked" id="remember"> Recordarme
-                                    <span>¿ Se ha olvidado su <a href="#">password?</a></span>
-                                </div>
-
-
-                                <div class="container2" style="background-color:#f1f1f1">
-                                    <button type="submit" class="loginbtn">Login</button>
-                                    <button type="button" onclick="document.getElementById('id01').style.display='none'"
-                                        class="cancelbtn">Cancelar</button>
-                                </div>
-
-                            </form>
-                        </div>
-                        <a href="#" class="button-two">Sign Up</a>
-
-                        <div class="row fila-carrito">
-                            <div class="col-12">
-                                <i class="fas fa-shopping-cart"><span>0,00&nbsp;€</span></i>
+                        <!-- Modal Content -->
+                        <form class="modal-content animate" action="/action_page.php">
+                            <div class="imgcontainer">
+                                <img src="img/avatar.jpeg" alt="Avatar" class="avatar">
                             </div>
-                        </div>
+
+                            <div class="container2">
+                                <label for="uname"><b>Usuario</b></label>
+                                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                                <label for="psw"><b>Password</b></label>
+                                <input type="password" placeholder="Enter Password" name="psw" required>
+                                <input type="checkbox" checked="checked" id="remember"> Recuerdame
+                                <span>¿Se ha olvidado de su <a href="#">password?</a></span>
+                            </div>
+
+
+                            <div class="container2" style="background-color:#f1f1f1">
+                                <button type="submit" class="loginbtn">Login</button>
+                                <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                                    class="cancelbtn">Cancelar</button>
+                            </div>
+
+                        </form>
                     </div>
 
+                    <a href="#" class="button-two">Sign Up</a>
+
+                    <div class="row fila-carrito">
+                        <div class="col-12">
+                            <i class="fas fa-shopping-cart"><span>0,00&nbsp;€</span></i>
+                        </div>
+                    </div>
                 </div>
+
+            </div>
                 <div class="container-fluid">
                     <div class="row barra-nav">
                         <div class="col-11 barra-nav-elementos">

@@ -208,7 +208,7 @@ h2 {
   display: flex;
   text-align: center;
   justify-content: center;
-  margin-top: 60px;
+  margin-top: 80px;
 
 
 }
@@ -1326,7 +1326,7 @@ span.psw {
 
 
 /* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 464px) {
   span.psw {
     display: block;
     float: none;
@@ -1338,6 +1338,23 @@ span.psw {
 
   .loginbtn {
     width: 100%;
+  }
+
+  .blog-entrada {
+
+    margin-left: 0px;
+
+  }
+
+  .barra-nav-elementos a {
+
+    text-decoration: none;
+    font-size: 10px;
+    margin: 3px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+
   }
   
 }
@@ -1399,8 +1416,18 @@ span.psw {
   }
 }
 
-@media only screen and (min-width: 1200px) {
-  .container {
-    width: 1160px;
-  }
+
+  @media only screen and (min-width: 1200px) and (max-width: 1390px) {
+
+    .container {
+      width: 1160px;
+    }
+  
+    .col-9 {
+  
+      flex: 0 0 auto;
+      width: 70%;
+  
+    }
+
 }

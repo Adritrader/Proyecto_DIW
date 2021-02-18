@@ -84,6 +84,8 @@ h2 {
 
 }
 
+
+
 .col-fecha-entradas {
 
   border: 1px solid lightgray;
@@ -836,7 +838,6 @@ h2 {
   border-radius: 5px;
   margin-bottom: 5px;
   margin-top: 5px;
-  margin-left: 10px;
 }
 
 .button-four:hover {

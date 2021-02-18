@@ -198,7 +198,7 @@ div.content {
   width: 300px;
   background-color: rgb(37, 36, 46);
   position: absolute;
-  height: 100%;
+  height: 200%;
 }
 
 .sidebar a {

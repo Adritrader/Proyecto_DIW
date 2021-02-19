@@ -45,9 +45,9 @@ a {
 
 }
 
-.barra-nav-elementos a:hover {
+.enlaces:hover {
 
-  color: rgb(109, 0, 63);
+  color: rgb(109, 0, 63) !important;
 
 }
 

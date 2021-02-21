@@ -93,7 +93,7 @@
                         </form>
                     </div>
 
-                    <a href="#" class="button-two">Sign Up</a>
+                    <a href="signup.html" class="button-two">Sign Up</a>
 
                     <div class="row fila-carrito">
                         <div class="col-12">
@@ -104,18 +104,24 @@
 
             </div>
             <div class="container-fluid container-barra-nav">
+
                 <div class="row barra-nav">
-                    <div class="col-11 barra-nav-elementos">
-                        <a href="home.html">Home</a>
-                        <a href="servicios.html" class="active">Servicios</a>
-                        <a href="quienes-somos.html">Quiénes Somos</a>
-                        <a href="galeria.html">Galería</a>
-                        <a href="blog.html">Blog</a>
-                        <a href="contacto.html">Contacto</a>
-                        <a href="tienda.html">Tienda</a>
+                    <div class="col-12">
+                        <div class="barra-nav-elementos" id="myTopnav">
+                            <a href="home.html">Home</a>
+                            <a href="servicios-peluqueria.html" class="active">Servicios</a>
+                            <a href="quienes-somos-equipo.html">Quiénes Somos</a>
+                            <a href="galeria.html">Galería</a>
+                            <a href="blog.html">Blog</a>
+                            <a href="contacto.html">Contacto</a>
+                            <a href="tienda.html">Tienda</a>
+                            <a id="toggle-button" href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                        </div>
+                        </nav>
                     </div>
                 </div>
-            </div>
 
             <!-- Ruta -->
 
@@ -123,8 +129,9 @@
                 <div class="row fila-ruta">
                     <div class="col-5 col-ruta">
                         <div><span>Estas aquí: </span><a href="home.html">Home</a><span><i
-                                    class="fa fa-caret-right"></i><a href="servicios.html"
-                                    class="active">Servicios</a></span><span></span></div>
+                                    class="fa fa-caret-right"></i><a href="servicios-peluqueria.html"
+                                    class="active">Servicios</a></span><span><i class="fa fa-caret-right"></i><a
+                                        href="servicios-tratamientos.html" class="active">Tratamientos</a></span></div>
                     </div>
                 </div>
             </div>
@@ -139,38 +146,36 @@
         <div class="row fila-servicios">
             <div class="col-2">
                 <div class="sidenav">
-                    <button class="dropdown-btn">Peluquería
+                    <button class="dropdown-btn">Servicios
                         <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-container">
-                        <a href="#">Mujer</a>
-                        <a href="#">Hombre</a>
-                        <a href="#">Tratamientos</a>
+                        <a href="servicios-peluqueria.html">Peluquería</a>
+                        <a href="servicios-tratamientos.html">Tratamientos</a>
+                        <a href="servicios-manicura.html">Manicura</a>
                     </div>
-                    <a href="#contact">Uñas</a>
                 </div>
             </div>
             <div class="col-5 texto-servicios">
 
                 <div class="row">
-                    <h1>Mujer</h1>
+                    <h1>Tratamientos</h1>
                 </div>
                 <div class="row">
-                    <p>Se realizan todo tipo de servicios de mujer desde cortes , colores, degradados, secados,
-                        recogidos y mucho más, siempre estaremos abiertos a cualquier
+                    <p>Se realizan todo tipo de tratamientos , siempre estaremos abiertos a cualquier
                         sugerencia por parte del cliente.
                     </p>
                     <p>Aplicamos los mejores productos para el mejor cuidado de su cabello. Todos los productos que
                         aplicamos están disponibles a la venta en nuestra tienda online, como en
-                        la peluquería, si le ha gustado un champú o una mascarilla no dude en preguntarnos.
+                        la peluquería, si le ha gustado una ampolla o un champú no dude en preguntarnos.
                     </p>
                 </div>
-                <img src="img/servicios-2.jpg" alt="servicios-2" id="servicios-2">
+                <img src="img/servicios-5.jpg" alt="servicios-2" id="servicios-2">
 
             </div>
             <div class="col-2 fotos-servicios">
-                <img src="img/servicios-11.jpg" alt="servicios-11">
-                <img src="img/servicios-12.jpg" alt="servicios-12">
+                <img src="img/servicios-9.jpg" alt="servicios-11">
+                <img src="img/servicios-7.jpg" alt="servicios-12">
             </div>
         </div>
     </div>
@@ -183,8 +188,8 @@
             <div class="row fila-footer">
                 <div class="col-2 col-footer-enlaces enlaces-first">
                     <a href="home.html">Home</a>
-                    <a href="servicios.html">Servicios</a>
-                    <a href="quienes-somos.html">Quienes Somos</a>
+                    <a href="servicios-peluqueria.html">Servicios</a>
+                    <a href="quienes-somos-equipo.html">Quienes Somos</a>
                     <a href="galeria.html">Galería</a>
                 </div>
                 <div class="col-2 col-footer-enlaces">
@@ -220,7 +225,7 @@
                     <a href="#">Política</a>
                     <a href="#">Cookies</a>
                     <a href="#">Aviso Legal</a>
-                    <a href="#">Tienda</a>
+                    <a href="tienda.html">Tienda</a>
                 </div>
             </div>
         </div>

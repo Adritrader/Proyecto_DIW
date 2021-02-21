@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/template-grid3.css">
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.13/css/all.css">
     <script src="js/app.js"></script>
-    <title>Servicios | Juan Bisquert Peluqueros</title>
+    <title>Galería | Juan Bisquert Peluqueros</title>
 </head>
 
 <body onload="docReady()">
@@ -93,7 +93,7 @@
                         </form>
                     </div>
 
-                    <a href="#" class="button-two">Sign Up</a>
+                    <a href="signup.html" class="button-two">Sign Up</a>
 
                     <div class="row fila-carrito">
                         <div class="col-12">
@@ -103,9 +103,11 @@
                 </div>
 
             </div>
-                <div class="container-fluid">
-                    <div class="row barra-nav">
-                        <div class="col-11 barra-nav-elementos">
+            <div class="container-fluid container-barra-nav">
+
+                <div class="row barra-nav">
+                    <div class="col-12">
+                        <div class="barra-nav-elementos" id="myTopnav">
                             <a href="home.html">Home</a>
                             <a href="servicios-peluqueria.html">Servicios</a>
                             <a href="quienes-somos-equipo.html">Quiénes Somos</a>
@@ -113,7 +115,11 @@
                             <a href="blog.html">Blog</a>
                             <a href="contacto.html">Contacto</a>
                             <a href="tienda.html">Tienda</a>
+                            <a id="toggle-button" href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <i class="fa fa-bars"></i>
+                            </a>
                         </div>
+                        </nav>
                     </div>
                 </div>
 
@@ -205,25 +211,25 @@
                         <div class="gallery-container w-3 h-2">
                             <div class="gallery-item">
                                 <div class="image">
-                                    <img src="img/salon1.jpg" alt="nature">
+                                    <img src="img/manicura-1.jpg" alt="manicura-1">
                                 </div>
-                                <div class="text">Instalaciones modernas</div>
+                                <div class="text">Colores divertidos</div>
                             </div>
                         </div>
     
                         <div class="gallery-container w-3 h-3">
                             <div class="gallery-item">
                                 <div class="image">
-                                    <img src="img/servicios-9.jpg" alt="people">
+                                    <img src="img/manicura-2.jpg" alt="manicura-2">
                                 </div>
-                                <div class="text">Colores divertidos</div>
+                                <div class="text">Acabados de calidad</div>
                             </div>
                         </div>
     
                         <div class="gallery-container h-3">
                             <div class="gallery-item">
                                 <div class="image">
-                                    <img src="img/servicios-4.jpg" alt="sport">
+                                    <img src="img/manicura-5.jpg" alt="manicura-3">
                                 </div>
                                 <div class="text">Tendencia</div>
                             </div>
@@ -232,16 +238,16 @@
                         <div class="gallery-container w-2">
                             <div class="gallery-item">
                                 <div class="image">
-                                    <img src="img/servicios-8.jpg" alt="fitness">
+                                    <img src="img/manicura-6.jpg" alt="manicura-5">
                                 </div>
-                                <div class="text">Caballero</div>
+                                <div class="text">Cuidado</div>
                             </div>
                         </div>
     
                         <div class="gallery-container w-4 h-2">
                             <div class="gallery-item">
                                 <div class="image">
-                                    <img src="img/servicios-7.jpg" alt="food">
+                                    <img src="img/manicura-7.jpg" alt="manicura-6">
                                 </div>
                                 <div class="text">Atención personalizada</div>
                             </div>
@@ -250,7 +256,7 @@
                         <div class="gallery-container h-2">
                             <div class="gallery-item">
                                 <div class="image">
-                                    <img src="img/servicios-10.jpg" alt="hair">
+                                    <img src="img/manicura-1.jpg" alt="manicura-1">
                                 </div>
                                 <div class="text">Estilo</div>
                             </div>
@@ -271,8 +277,8 @@
             <div class="row fila-footer">
                 <div class="col-2 col-footer-enlaces enlaces-first">
                     <a href="home.html">Home</a>
-                    <a href="servicios.html">Servicios</a>
-                    <a href="quienes-somos.html">Quiénes Somos</a>
+                    <a href="servicios-peluqueria.html">Servicios</a>
+                    <a href="quienes-somos-equipo.html">Quiénes Somos</a>
                     <a href="galeria.html">Galería</a>
                 </div>
                 <div class="col-2 col-footer-enlaces">
@@ -310,7 +316,7 @@
                     <a href="#">Política</a>
                     <a href="#">Cookies</a>
                     <a href="#">Aviso Legal</a>
-                    <a href="#">Tienda</a>
+                    <a href="tienda.html">Tienda</a>
                 </div>
             </div>
         </div>

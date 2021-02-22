@@ -110,6 +110,11 @@ h2 {
 
 }
 
+.cuerpo-entrada {
+
+padding-left: 40px; 
+
+}
 
 
 .col-fecha-entradas {
@@ -1483,7 +1488,77 @@ span.psw {
   
 }
 
+.cuerpo-entrada {
+
+  padding-left: 15px; 
   
+  }
+
+  
+}
+
+/* Cookies */
+
+
+.containerCookie {
+
+  position: fixed;
+  bottom: 15px;
+  z-index: 1;
+
+}
+
+.cajaCookie {
+
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  
+}
+
+.filaCookie {
+
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.textoCookie {
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-left: 10px;
+  line-height: 1.5;
+  font-size: 19px;
+  font-weight: 500;
+  
+
+}
+
+.textoCookie span {
+
+  color: black;
+}
+
+.textoCookie a {
+  color: rgb(109, 0, 63);
+  text-decoration: none;
+}
+
+#cruz {
+  width: 15px;
+  height: 15px;
+  margin-top: 35px;
+  opacity: 20%;
+}
+
+#cruz:hover {
+  opacity: 100%;
 }
 
 @media only screen and (min-width: 768px) {

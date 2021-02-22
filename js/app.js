@@ -1,7 +1,7 @@
 //Variables
 
 var slideIndex = 1;
-var modal = document.getElementById('id01');
+var modal = document.getElementById('envio-form');
 var mybutton = document.getElementById("myBtn");
 
 
@@ -31,6 +31,7 @@ function myFunction() {
 window.onclick = function (event) {
   if (event.target == modal) {
     modal.style.display = "none";
+
   }
 }
 
@@ -134,5 +135,6 @@ function docReady() {
   scrollFunction();
   playMusic();
   myFunction();
+  modalFunction()
 
 }

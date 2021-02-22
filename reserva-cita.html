@@ -201,10 +201,33 @@
                                     <option value="5">18:00</option>
                                     <option value="6">19:00</option>
                                 </select></label>
-                            <label><span></span><input type="submit" value="Submit" /></label>
+                            <label><span></span><input type="submit" value="Submit" onclick="document.getElementById('envio-form').style.display='block'"/></label>
+                    <div id="envio-form" class="modal2">
+                        <span onclick="document.getElementById('envio-form').style.display='none'" class="close"
+                            title="Close Modal">&times;</span>
+                        
+
+                            <!-- Modal Content -->
+                            
+
+                            <div class="container2 modal-content">
+                                <h1 id="modal-reserva">Se ha creado la reserva correctamente</h1>
+                                <button type="button" id="aceptar" class="button-two" onclick="document.getElementById('envio-form').style.display='none'">Aceptar</button>
+                                <input type="text" placeholder="Enter Username" name="uname" required hidden>
+
+                            
+                                <input type="password" placeholder="Enter Password" name="psw" required hidden>
+                                
+                            </div>
+
+
+                            <div class="container2" style="background-color:#f1f1f1">
+                                
+                            </div>
                         </fieldset>
                     </form>
                 </div>
+
 
                 <div class="row">
 
@@ -251,7 +274,7 @@
                 <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-footer-politicas">
                     <span>© 2020 VaporDev Web Designs</span>
                 </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-footer-avisos-legales">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-9 col-footer-avisos-legales">
                     <a href="sitemap.html">Sitemap</a>
                     <a href="#">Política</a>
                     <a href="#">Cookies</a>
